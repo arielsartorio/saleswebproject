@@ -17,7 +17,8 @@ namespace SalesWebProject.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aplicação ASP.NET Core MVC com C#. Desenvolvida como projeto final do curso de C#.";
+            ViewData["Professor"] = "Nélio Alves";
 
             return View();
         }
